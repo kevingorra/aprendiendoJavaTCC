@@ -9,11 +9,13 @@ public class Producto {
 
     //CONSTRUCTOR
 
-    public Producto() {
 
+
+    public Producto(String nom, String descripcion, int precioUnitario) {
+        this.nombre = nom;
+        this.descripcion = descripcion;
+        this.precioUnitario = precioUnitario;
     }
-
-
     //METODOS
 
     public double calcularIVA(){
